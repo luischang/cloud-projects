@@ -28,17 +28,18 @@ Cada proyecto incluye:
 
 ## 📂 **Lista de Proyectos**
 
-### **📌 [1. Nombre del Proyecto]**
-- **👥 Autor(es):** [Nombre(s) del/los estudiante(s)]
-- **📅 Ciclo:** [Ejemplo: 2024-01, 2024-02, etc.]
-- **📖 Descripción:** [Breve descripción del proyecto, máximo 2-3 líneas.]
+### **📌 1. ChatBot-FitAssistant**
+- **👥 Autor(es):** Carlos Ramos Flores, Arian Garay Concha
+- **📅 Ciclo:** 2024-02
+- **📖 Descripción:** Chatbot para un gimnasio, el chatbot otorga informacion de turnos, membresias y servicios. Es posible crear una suscripción a un usuario y poder reservar un turno. Se utiliza la libreria @bot-whatsapp, firestore para almacenar la informacion y S3 para almacenar los vouchers de pago.
 - **🎯 Objetivos:**
-  1. [Primer objetivo.]
-  2. [Segundo objetivo.]
-- **🛠️ Tecnologías utilizadas:** [Lista de tecnologías, frameworks, lenguajes, etc.]
-- **🔗 Enlace al repositorio o demo:** [Enlace si está disponible]
+  1. Otorgar información de membresias y servicios.
+  2. Crear una suscripción a un usuario.
+  3. Reservar un turno en un horario específico.
+- **🛠️ Tecnologías utilizadas:** NodeJS, @bot-whatsapp, aws-sdk, firebase, S3, EC2
+- **🔗 Enlace al repositorio o demo:** https://github.com/debugsito/chatbot-fit
 - **🖼️ Imagen representativa:**  
-  ![Descripción breve de la imagen](ruta/de/la/imagen.jpg)
+  ![Arquitectura del servicio](https://i.imgur.com/Yt1onio.png)
 
 ---
 
